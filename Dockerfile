@@ -1,4 +1,4 @@
-FROM ghcr.io/puppeteer/puppeteer:23.10.1  # Pulls the image that contains Puppeteer v16.1.0
+FROM ghcr.io/puppeteer/puppeteer:23.10.1 
 
 # Install Chromium and required dependencies
 RUN apt-get update && apt-get install -y chromium
