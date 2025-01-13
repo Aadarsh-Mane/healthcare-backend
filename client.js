@@ -2,7 +2,7 @@ import io from "socket.io-client";
 
 // Connect to the Socket.IO server
 const socket = io("http://localhost:3000");
-
+//d
 // Example users
 const user1 = "doctor1www"; // Sender (could be a doctor)
 const user2 = "patient4ww"; // Receiver (could be a patient)
